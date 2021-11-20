@@ -1,0 +1,514 @@
+p = 4a, p' = 98
+
+k = 00	s(p^k) = d6, s(p'^k) = 46, s(p^k)^s(p'^k) = 90
+
+k = 01	s(p^k) = b3, s(p'^k) = ee, s(p^k)^s(p'^k) = 5d
+
+k = 02	s(p^k) = 52, s(p'^k) = b8, s(p^k)^s(p'^k) = ea
+
+k = 03	s(p^k) = 3b, s(p'^k) = 14, s(p^k)^s(p'^k) = 2f
+
+k = 04	s(p^k) = 2f, s(p'^k) = de, s(p^k)^s(p'^k) = f1
+
+k = 05	s(p^k) = 84, s(p'^k) = 5e, s(p^k)^s(p'^k) = da
+
+k = 06	s(p^k) = 29, s(p'^k) = 0b, s(p^k)^s(p'^k) = 22
+
+k = 07	s(p^k) = e3, s(p'^k) = db, s(p^k)^s(p'^k) = 38
+
+k = 08	s(p^k) = 2c, s(p'^k) = 60, s(p^k)^s(p'^k) = 4c
+
+k = 09	s(p^k) = 1a, s(p'^k) = 81, s(p^k)^s(p'^k) = 9b
+
+k = 0a	s(p^k) = 09, s(p'^k) = 4f, s(p^k)^s(p'^k) = 46
+
+k = 0b	s(p^k) = 83, s(p'^k) = dc, s(p^k)^s(p'^k) = 5f
+
+k = 0c	s(p^k) = 5a, s(p'^k) = 22, s(p^k)^s(p'^k) = 78
+
+k = 0d	s(p^k) = a0, s(p'^k) = 2a, s(p^k)^s(p'^k) = 8a
+
+k = 0e	s(p^k) = 1b, s(p'^k) = 90, s(p^k)^s(p'^k) = 8b
+
+k = 0f	s(p^k) = 6e, s(p'^k) = 88, s(p^k)^s(p'^k) = e6
+
+k = 10	s(p^k) = be, s(p'^k) = c4, s(p^k)^s(p'^k) = 7a
+
+k = 11	s(p^k) = 39, s(p'^k) = a7, s(p^k)^s(p'^k) = 9e
+
+k = 12	s(p^k) = 6a, s(p'^k) = 7e, s(p^k)^s(p'^k) = 14
+
+k = 13	s(p^k) = cb, s(p'^k) = 3d, s(p^k)^s(p'^k) = f6
+
+k = 14	s(p^k) = 58, s(p'^k) = 64, s(p^k)^s(p'^k) = 3c
+
+k = 15	s(p^k) = cf, s(p'^k) = 5d, s(p^k)^s(p'^k) = 92
+
+k = 16	s(p^k) = 4a, s(p'^k) = 19, s(p^k)^s(p'^k) = 53
+
+k = 17	s(p^k) = 4c, s(p'^k) = 73, s(p^k)^s(p'^k) = 3f
+
+k = 18	s(p^k) = 00, s(p'^k) = cd, s(p^k)^s(p'^k) = cd
+
+k = 19	s(p^k) = ed, s(p'^k) = 0c, s(p^k)^s(p'^k) = e1
+
+k = 1a	s(p^k) = 53, s(p'^k) = 13, s(p^k)^s(p'^k) = 40
+
+k = 1b	s(p^k) = d1, s(p'^k) = ec, s(p^k)^s(p'^k) = 3d
+
+k = 1c	s(p^k) = b1, s(p'^k) = 5f, s(p^k)^s(p'^k) = ee
+
+k = 1d	s(p^k) = 5b, s(p'^k) = 97, s(p^k)^s(p'^k) = cc
+
+k = 1e	s(p^k) = 20, s(p'^k) = 44, s(p^k)^s(p'^k) = 64
+
+k = 1f	s(p^k) = fc, s(p'^k) = 17, s(p^k)^s(p'^k) = eb
+
+k = 20	s(p^k) = 02, s(p'^k) = 6c, s(p^k)^s(p'^k) = 6e
+
+k = 21	s(p^k) = 7f, s(p'^k) = 56, s(p^k)^s(p'^k) = 29
+
+k = 22	s(p^k) = 45, s(p'^k) = f4, s(p^k)^s(p'^k) = b1
+
+k = 23	s(p^k) = f9, s(p'^k) = ea, s(p^k)^s(p'^k) = 13
+
+k = 24	s(p^k) = 9f, s(p'^k) = 65, s(p^k)^s(p'^k) = fa
+
+k = 25	s(p^k) = a8, s(p'^k) = 7a, s(p^k)^s(p'^k) = d2
+
+k = 26	s(p^k) = 50, s(p'^k) = ae, s(p^k)^s(p'^k) = fe
+
+k = 27	s(p^k) = 3c, s(p'^k) = 08, s(p^k)^s(p'^k) = 34
+
+k = 28	s(p^k) = aa, s(p'^k) = e7, s(p^k)^s(p'^k) = 4d
+
+k = 29	s(p^k) = fb, s(p'^k) = c8, s(p^k)^s(p'^k) = 33
+
+k = 2a	s(p^k) = d0, s(p'^k) = 37, s(p^k)^s(p'^k) = e7
+
+k = 2b	s(p^k) = ef, s(p'^k) = 6d, s(p^k)^s(p'^k) = 82
+
+k = 2c	s(p^k) = 33, s(p'^k) = 8d, s(p^k)^s(p'^k) = be
+
+k = 2d	s(p^k) = 85, s(p'^k) = d5, s(p^k)^s(p'^k) = 50
+
+k = 2e	s(p^k) = 43, s(p'^k) = 4e, s(p^k)^s(p'^k) = 0d
+
+k = 2f	s(p^k) = 4d, s(p'^k) = a9, s(p^k)^s(p'^k) = e4
+
+k = 30	s(p^k) = da, s(p'^k) = c2, s(p^k)^s(p'^k) = 18
+
+k = 31	s(p^k) = 21, s(p'^k) = d3, s(p^k)^s(p'^k) = f2
+
+k = 32	s(p^k) = bc, s(p'^k) = ac, s(p^k)^s(p'^k) = 10
+
+k = 33	s(p^k) = b6, s(p'^k) = 62, s(p^k)^s(p'^k) = d4
+
+k = 34	s(p^k) = f3, s(p'^k) = 91, s(p^k)^s(p'^k) = 62
+
+k = 35	s(p^k) = d2, s(p'^k) = 95, s(p^k)^s(p'^k) = 47
+
+k = 36	s(p^k) = 10, s(p'^k) = e4, s(p^k)^s(p'^k) = f4
+
+k = 37	s(p^k) = ff, s(p'^k) = 79, s(p^k)^s(p'^k) = 86
+
+k = 38	s(p^k) = 40, s(p'^k) = e0, s(p^k)^s(p'^k) = a0
+
+k = 39	s(p^k) = 8f, s(p'^k) = 32, s(p^k)^s(p'^k) = bd
+
+k = 3a	s(p^k) = 51, s(p'^k) = 3a, s(p^k)^s(p'^k) = 6b
+
+k = 3b	s(p^k) = a3, s(p'^k) = 0a, s(p^k)^s(p'^k) = a9
+
+k = 3c	s(p^k) = 38, s(p'^k) = 49, s(p^k)^s(p'^k) = 71
+
+k = 3d	s(p^k) = f5, s(p'^k) = 06, s(p^k)^s(p'^k) = f3
+
+k = 3e	s(p^k) = 92, s(p'^k) = 24, s(p^k)^s(p'^k) = b6
+
+k = 3f	s(p^k) = 9d, s(p'^k) = 5c, s(p^k)^s(p'^k) = c1
+
+k = 40	s(p^k) = 67, s(p'^k) = 61, s(p^k)^s(p'^k) = 06
+
+k = 41	s(p^k) = 2b, s(p'^k) = 35, s(p^k)^s(p'^k) = 1e
+
+k = 42	s(p^k) = 30, s(p'^k) = 57, s(p^k)^s(p'^k) = 67
+
+k = 43	s(p^k) = 01, s(p'^k) = b9, s(p^k)^s(p'^k) = b8
+
+k = 44	s(p^k) = ab, s(p'^k) = 86, s(p^k)^s(p'^k) = 2d
+
+k = 45	s(p^k) = 76, s(p'^k) = c1, s(p^k)^s(p'^k) = b7
+
+k = 46	s(p^k) = fe, s(p'^k) = 1d, s(p^k)^s(p'^k) = e3
+
+k = 47	s(p^k) = d7, s(p'^k) = 9e, s(p^k)^s(p'^k) = 49
+
+k = 48	s(p^k) = 77, s(p'^k) = 70, s(p^k)^s(p'^k) = 07
+
+k = 49	s(p^k) = 7b, s(p'^k) = 3e, s(p^k)^s(p'^k) = 45
+
+k = 4a	s(p^k) = 63, s(p'^k) = b5, s(p^k)^s(p'^k) = d6
+
+k = 4b	s(p^k) = 7c, s(p'^k) = 66, s(p^k)^s(p'^k) = 1a
+
+k = 4c	s(p^k) = 6f, s(p'^k) = 48, s(p^k)^s(p'^k) = 27
+
+k = 4d	s(p^k) = c5, s(p'^k) = 03, s(p^k)^s(p'^k) = c6
+
+k = 4e	s(p^k) = f2, s(p'^k) = f6, s(p^k)^s(p'^k) = 04
+
+k = 4f	s(p^k) = 6b, s(p'^k) = 0e, s(p^k)^s(p'^k) = 65
+
+k = 50	s(p^k) = a2, s(p'^k) = e8, s(p^k)^s(p'^k) = 4a
+
+k = 51	s(p^k) = af, s(p'^k) = dd, s(p^k)^s(p'^k) = 72
+
+k = 52	s(p^k) = ad, s(p'^k) = 74, s(p^k)^s(p'^k) = d9
+
+k = 53	s(p^k) = d4, s(p'^k) = 1f, s(p^k)^s(p'^k) = cb
+
+k = 54	s(p^k) = 72, s(p'^k) = 4b, s(p^k)^s(p'^k) = 39
+
+k = 55	s(p^k) = c0, s(p'^k) = bd, s(p^k)^s(p'^k) = 7d
+
+k = 56	s(p^k) = 9c, s(p'^k) = 8b, s(p^k)^s(p'^k) = 17
+
+k = 57	s(p^k) = a4, s(p'^k) = 8a, s(p^k)^s(p'^k) = 2e
+
+k = 58	s(p^k) = c9, s(p'^k) = ba, s(p^k)^s(p'^k) = 73
+
+k = 59	s(p^k) = 7d, s(p'^k) = 78, s(p^k)^s(p'^k) = 05
+
+k = 5a	s(p^k) = ca, s(p'^k) = 25, s(p^k)^s(p'^k) = ef
+
+k = 5b	s(p^k) = 82, s(p'^k) = 2e, s(p^k)^s(p'^k) = ac
+
+k = 5c	s(p^k) = 47, s(p'^k) = 1c, s(p^k)^s(p'^k) = 5b
+
+k = 5d	s(p^k) = f0, s(p'^k) = a6, s(p^k)^s(p'^k) = 56
+
+k = 5e	s(p^k) = fa, s(p'^k) = b4, s(p^k)^s(p'^k) = 4e
+
+k = 5f	s(p^k) = 59, s(p'^k) = c6, s(p^k)^s(p'^k) = 9f
+
+k = 60	s(p^k) = e5, s(p'^k) = 41, s(p^k)^s(p'^k) = a4
+
+k = 61	s(p^k) = f1, s(p'^k) = 99, s(p^k)^s(p'^k) = 68
+
+k = 62	s(p^k) = 34, s(p'^k) = 2d, s(p^k)^s(p'^k) = 19
+
+k = 63	s(p^k) = a5, s(p'^k) = 0f, s(p^k)^s(p'^k) = aa
+
+k = 64	s(p^k) = 31, s(p'^k) = b0, s(p^k)^s(p'^k) = 81
+
+k = 65	s(p^k) = 15, s(p'^k) = 54, s(p^k)^s(p'^k) = 41
+
+k = 66	s(p^k) = 71, s(p'^k) = bb, s(p^k)^s(p'^k) = ca
+
+k = 67	s(p^k) = d8, s(p'^k) = 16, s(p^k)^s(p'^k) = ce
+
+k = 68	s(p^k) = 93, s(p'^k) = 8c, s(p^k)^s(p'^k) = 1f
+
+k = 69	s(p^k) = 26, s(p'^k) = a1, s(p^k)^s(p'^k) = 87
+
+k = 6a	s(p^k) = b7, s(p'^k) = 89, s(p^k)^s(p'^k) = 3e
+
+k = 6b	s(p^k) = fd, s(p'^k) = 0d, s(p^k)^s(p'^k) = f0
+
+k = 6c	s(p^k) = f7, s(p'^k) = bf, s(p^k)^s(p'^k) = 48
+
+k = 6d	s(p^k) = cc, s(p'^k) = e6, s(p^k)^s(p'^k) = 2a
+
+k = 6e	s(p^k) = 36, s(p'^k) = 42, s(p^k)^s(p'^k) = 74
+
+k = 6f	s(p^k) = 3f, s(p'^k) = 68, s(p^k)^s(p'^k) = 57
+
+k = 70	s(p^k) = 80, s(p'^k) = 9b, s(p^k)^s(p'^k) = 1b
+
+k = 71	s(p^k) = e2, s(p'^k) = 1e, s(p^k)^s(p'^k) = fc
+
+k = 72	s(p^k) = 07, s(p'^k) = 87, s(p^k)^s(p'^k) = 80
+
+k = 73	s(p^k) = 12, s(p'^k) = e9, s(p^k)^s(p'^k) = fb
+
+k = 74	s(p^k) = b2, s(p'^k) = ce, s(p^k)^s(p'^k) = 7c
+
+k = 75	s(p^k) = 75, s(p'^k) = 55, s(p^k)^s(p'^k) = 20
+
+k = 76	s(p^k) = eb, s(p'^k) = 28, s(p^k)^s(p'^k) = c3
+
+k = 77	s(p^k) = 27, s(p'^k) = df, s(p^k)^s(p'^k) = f8
+
+k = 78	s(p^k) = 23, s(p'^k) = e1, s(p^k)^s(p'^k) = c2
+
+k = 79	s(p^k) = c3, s(p'^k) = f8, s(p^k)^s(p'^k) = 3b
+
+k = 7a	s(p^k) = 04, s(p'^k) = 98, s(p^k)^s(p'^k) = 9c
+
+k = 7b	s(p^k) = c7, s(p'^k) = 11, s(p^k)^s(p'^k) = d6
+
+k = 7c	s(p^k) = 05, s(p'^k) = 69, s(p^k)^s(p'^k) = 6c
+
+k = 7d	s(p^k) = 9a, s(p'^k) = d9, s(p^k)^s(p'^k) = 43
+
+k = 7e	s(p^k) = 18, s(p'^k) = 8e, s(p^k)^s(p'^k) = 96
+
+k = 7f	s(p^k) = 96, s(p'^k) = 94, s(p^k)^s(p'^k) = 02
+
+k = 80	s(p^k) = 74, s(p'^k) = ad, s(p^k)^s(p'^k) = d9
+
+k = 81	s(p^k) = 1f, s(p'^k) = d4, s(p^k)^s(p'^k) = cb
+
+k = 82	s(p^k) = e8, s(p'^k) = a2, s(p^k)^s(p'^k) = 4a
+
+k = 83	s(p^k) = dd, s(p'^k) = af, s(p^k)^s(p'^k) = 72
+
+k = 84	s(p^k) = 8b, s(p'^k) = 9c, s(p^k)^s(p'^k) = 17
+
+k = 85	s(p^k) = 8a, s(p'^k) = a4, s(p^k)^s(p'^k) = 2e
+
+k = 86	s(p^k) = 4b, s(p'^k) = 72, s(p^k)^s(p'^k) = 39
+
+k = 87	s(p^k) = bd, s(p'^k) = c0, s(p^k)^s(p'^k) = 7d
+
+k = 88	s(p^k) = 25, s(p'^k) = ca, s(p^k)^s(p'^k) = ef
+
+k = 89	s(p^k) = 2e, s(p'^k) = 82, s(p^k)^s(p'^k) = ac
+
+k = 8a	s(p^k) = ba, s(p'^k) = c9, s(p^k)^s(p'^k) = 73
+
+k = 8b	s(p^k) = 78, s(p'^k) = 7d, s(p^k)^s(p'^k) = 05
+
+k = 8c	s(p^k) = b4, s(p'^k) = fa, s(p^k)^s(p'^k) = 4e
+
+k = 8d	s(p^k) = c6, s(p'^k) = 59, s(p^k)^s(p'^k) = 9f
+
+k = 8e	s(p^k) = 1c, s(p'^k) = 47, s(p^k)^s(p'^k) = 5b
+
+k = 8f	s(p^k) = a6, s(p'^k) = f0, s(p^k)^s(p'^k) = 56
+
+k = 90	s(p^k) = 57, s(p'^k) = 30, s(p^k)^s(p'^k) = 67
+
+k = 91	s(p^k) = b9, s(p'^k) = 01, s(p^k)^s(p'^k) = b8
+
+k = 92	s(p^k) = 61, s(p'^k) = 67, s(p^k)^s(p'^k) = 06
+
+k = 93	s(p^k) = 35, s(p'^k) = 2b, s(p^k)^s(p'^k) = 1e
+
+k = 94	s(p^k) = 1d, s(p'^k) = fe, s(p^k)^s(p'^k) = e3
+
+k = 95	s(p^k) = 9e, s(p'^k) = d7, s(p^k)^s(p'^k) = 49
+
+k = 96	s(p^k) = 86, s(p'^k) = ab, s(p^k)^s(p'^k) = 2d
+
+k = 97	s(p^k) = c1, s(p'^k) = 76, s(p^k)^s(p'^k) = b7
+
+k = 98	s(p^k) = b5, s(p'^k) = 63, s(p^k)^s(p'^k) = d6
+
+k = 99	s(p^k) = 66, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1a
+
+k = 9a	s(p^k) = 70, s(p'^k) = 77, s(p^k)^s(p'^k) = 07
+
+k = 9b	s(p^k) = 3e, s(p'^k) = 7b, s(p^k)^s(p'^k) = 45
+
+k = 9c	s(p^k) = f6, s(p'^k) = f2, s(p^k)^s(p'^k) = 04
+
+k = 9d	s(p^k) = 0e, s(p'^k) = 6b, s(p^k)^s(p'^k) = 65
+
+k = 9e	s(p^k) = 48, s(p'^k) = 6f, s(p^k)^s(p'^k) = 27
+
+k = 9f	s(p^k) = 03, s(p'^k) = c5, s(p^k)^s(p'^k) = c6
+
+k = a0	s(p^k) = 87, s(p'^k) = 07, s(p^k)^s(p'^k) = 80
+
+k = a1	s(p^k) = e9, s(p'^k) = 12, s(p^k)^s(p'^k) = fb
+
+k = a2	s(p^k) = 9b, s(p'^k) = 80, s(p^k)^s(p'^k) = 1b
+
+k = a3	s(p^k) = 1e, s(p'^k) = e2, s(p^k)^s(p'^k) = fc
+
+k = a4	s(p^k) = 28, s(p'^k) = eb, s(p^k)^s(p'^k) = c3
+
+k = a5	s(p^k) = df, s(p'^k) = 27, s(p^k)^s(p'^k) = f8
+
+k = a6	s(p^k) = ce, s(p'^k) = b2, s(p^k)^s(p'^k) = 7c
+
+k = a7	s(p^k) = 55, s(p'^k) = 75, s(p^k)^s(p'^k) = 20
+
+k = a8	s(p^k) = 98, s(p'^k) = 04, s(p^k)^s(p'^k) = 9c
+
+k = a9	s(p^k) = 11, s(p'^k) = c7, s(p^k)^s(p'^k) = d6
+
+k = aa	s(p^k) = e1, s(p'^k) = 23, s(p^k)^s(p'^k) = c2
+
+k = ab	s(p^k) = f8, s(p'^k) = c3, s(p^k)^s(p'^k) = 3b
+
+k = ac	s(p^k) = 8e, s(p'^k) = 18, s(p^k)^s(p'^k) = 96
+
+k = ad	s(p^k) = 94, s(p'^k) = 96, s(p^k)^s(p'^k) = 02
+
+k = ae	s(p^k) = 69, s(p'^k) = 05, s(p^k)^s(p'^k) = 6c
+
+k = af	s(p^k) = d9, s(p'^k) = 9a, s(p^k)^s(p'^k) = 43
+
+k = b0	s(p^k) = 2d, s(p'^k) = 34, s(p^k)^s(p'^k) = 19
+
+k = b1	s(p^k) = 0f, s(p'^k) = a5, s(p^k)^s(p'^k) = aa
+
+k = b2	s(p^k) = 41, s(p'^k) = e5, s(p^k)^s(p'^k) = a4
+
+k = b3	s(p^k) = 99, s(p'^k) = f1, s(p^k)^s(p'^k) = 68
+
+k = b4	s(p^k) = bb, s(p'^k) = 71, s(p^k)^s(p'^k) = ca
+
+k = b5	s(p^k) = 16, s(p'^k) = d8, s(p^k)^s(p'^k) = ce
+
+k = b6	s(p^k) = b0, s(p'^k) = 31, s(p^k)^s(p'^k) = 81
+
+k = b7	s(p^k) = 54, s(p'^k) = 15, s(p^k)^s(p'^k) = 41
+
+k = b8	s(p^k) = 89, s(p'^k) = b7, s(p^k)^s(p'^k) = 3e
+
+k = b9	s(p^k) = 0d, s(p'^k) = fd, s(p^k)^s(p'^k) = f0
+
+k = ba	s(p^k) = 8c, s(p'^k) = 93, s(p^k)^s(p'^k) = 1f
+
+k = bb	s(p^k) = a1, s(p'^k) = 26, s(p^k)^s(p'^k) = 87
+
+k = bc	s(p^k) = 42, s(p'^k) = 36, s(p^k)^s(p'^k) = 74
+
+k = bd	s(p^k) = 68, s(p'^k) = 3f, s(p^k)^s(p'^k) = 57
+
+k = be	s(p^k) = bf, s(p'^k) = f7, s(p^k)^s(p'^k) = 48
+
+k = bf	s(p^k) = e6, s(p'^k) = cc, s(p^k)^s(p'^k) = 2a
+
+k = c0	s(p^k) = 7e, s(p'^k) = 6a, s(p^k)^s(p'^k) = 14
+
+k = c1	s(p^k) = 3d, s(p'^k) = cb, s(p^k)^s(p'^k) = f6
+
+k = c2	s(p^k) = c4, s(p'^k) = be, s(p^k)^s(p'^k) = 7a
+
+k = c3	s(p^k) = a7, s(p'^k) = 39, s(p^k)^s(p'^k) = 9e
+
+k = c4	s(p^k) = 19, s(p'^k) = 4a, s(p^k)^s(p'^k) = 53
+
+k = c5	s(p^k) = 73, s(p'^k) = 4c, s(p^k)^s(p'^k) = 3f
+
+k = c6	s(p^k) = 64, s(p'^k) = 58, s(p^k)^s(p'^k) = 3c
+
+k = c7	s(p^k) = 5d, s(p'^k) = cf, s(p^k)^s(p'^k) = 92
+
+k = c8	s(p^k) = 13, s(p'^k) = 53, s(p^k)^s(p'^k) = 40
+
+k = c9	s(p^k) = ec, s(p'^k) = d1, s(p^k)^s(p'^k) = 3d
+
+k = ca	s(p^k) = cd, s(p'^k) = 00, s(p^k)^s(p'^k) = cd
+
+k = cb	s(p^k) = 0c, s(p'^k) = ed, s(p^k)^s(p'^k) = e1
+
+k = cc	s(p^k) = 44, s(p'^k) = 20, s(p^k)^s(p'^k) = 64
+
+k = cd	s(p^k) = 17, s(p'^k) = fc, s(p^k)^s(p'^k) = eb
+
+k = ce	s(p^k) = 5f, s(p'^k) = b1, s(p^k)^s(p'^k) = ee
+
+k = cf	s(p^k) = 97, s(p'^k) = 5b, s(p^k)^s(p'^k) = cc
+
+k = d0	s(p^k) = b8, s(p'^k) = 52, s(p^k)^s(p'^k) = ea
+
+k = d1	s(p^k) = 14, s(p'^k) = 3b, s(p^k)^s(p'^k) = 2f
+
+k = d2	s(p^k) = 46, s(p'^k) = d6, s(p^k)^s(p'^k) = 90
+
+k = d3	s(p^k) = ee, s(p'^k) = b3, s(p^k)^s(p'^k) = 5d
+
+k = d4	s(p^k) = 0b, s(p'^k) = 29, s(p^k)^s(p'^k) = 22
+
+k = d5	s(p^k) = db, s(p'^k) = e3, s(p^k)^s(p'^k) = 38
+
+k = d6	s(p^k) = de, s(p'^k) = 2f, s(p^k)^s(p'^k) = f1
+
+k = d7	s(p^k) = 5e, s(p'^k) = 84, s(p^k)^s(p'^k) = da
+
+k = d8	s(p^k) = 4f, s(p'^k) = 09, s(p^k)^s(p'^k) = 46
+
+k = d9	s(p^k) = dc, s(p'^k) = 83, s(p^k)^s(p'^k) = 5f
+
+k = da	s(p^k) = 60, s(p'^k) = 2c, s(p^k)^s(p'^k) = 4c
+
+k = db	s(p^k) = 81, s(p'^k) = 1a, s(p^k)^s(p'^k) = 9b
+
+k = dc	s(p^k) = 90, s(p'^k) = 1b, s(p^k)^s(p'^k) = 8b
+
+k = dd	s(p^k) = 88, s(p'^k) = 6e, s(p^k)^s(p'^k) = e6
+
+k = de	s(p^k) = 22, s(p'^k) = 5a, s(p^k)^s(p'^k) = 78
+
+k = df	s(p^k) = 2a, s(p'^k) = a0, s(p^k)^s(p'^k) = 8a
+
+k = e0	s(p^k) = ac, s(p'^k) = bc, s(p^k)^s(p'^k) = 10
+
+k = e1	s(p^k) = 62, s(p'^k) = b6, s(p^k)^s(p'^k) = d4
+
+k = e2	s(p^k) = c2, s(p'^k) = da, s(p^k)^s(p'^k) = 18
+
+k = e3	s(p^k) = d3, s(p'^k) = 21, s(p^k)^s(p'^k) = f2
+
+k = e4	s(p^k) = e4, s(p'^k) = 10, s(p^k)^s(p'^k) = f4
+
+k = e5	s(p^k) = 79, s(p'^k) = ff, s(p^k)^s(p'^k) = 86
+
+k = e6	s(p^k) = 91, s(p'^k) = f3, s(p^k)^s(p'^k) = 62
+
+k = e7	s(p^k) = 95, s(p'^k) = d2, s(p^k)^s(p'^k) = 47
+
+k = e8	s(p^k) = 3a, s(p'^k) = 51, s(p^k)^s(p'^k) = 6b
+
+k = e9	s(p^k) = 0a, s(p'^k) = a3, s(p^k)^s(p'^k) = a9
+
+k = ea	s(p^k) = e0, s(p'^k) = 40, s(p^k)^s(p'^k) = a0
+
+k = eb	s(p^k) = 32, s(p'^k) = 8f, s(p^k)^s(p'^k) = bd
+
+k = ec	s(p^k) = 24, s(p'^k) = 92, s(p^k)^s(p'^k) = b6
+
+k = ed	s(p^k) = 5c, s(p'^k) = 9d, s(p^k)^s(p'^k) = c1
+
+k = ee	s(p^k) = 49, s(p'^k) = 38, s(p^k)^s(p'^k) = 71
+
+k = ef	s(p^k) = 06, s(p'^k) = f5, s(p^k)^s(p'^k) = f3
+
+k = f0	s(p^k) = f4, s(p'^k) = 45, s(p^k)^s(p'^k) = b1
+
+k = f1	s(p^k) = ea, s(p'^k) = f9, s(p^k)^s(p'^k) = 13
+
+k = f2	s(p^k) = 6c, s(p'^k) = 02, s(p^k)^s(p'^k) = 6e
+
+k = f3	s(p^k) = 56, s(p'^k) = 7f, s(p^k)^s(p'^k) = 29
+
+k = f4	s(p^k) = ae, s(p'^k) = 50, s(p^k)^s(p'^k) = fe
+
+k = f5	s(p^k) = 08, s(p'^k) = 3c, s(p^k)^s(p'^k) = 34
+
+k = f6	s(p^k) = 65, s(p'^k) = 9f, s(p^k)^s(p'^k) = fa
+
+k = f7	s(p^k) = 7a, s(p'^k) = a8, s(p^k)^s(p'^k) = d2
+
+k = f8	s(p^k) = 37, s(p'^k) = d0, s(p^k)^s(p'^k) = e7
+
+k = f9	s(p^k) = 6d, s(p'^k) = ef, s(p^k)^s(p'^k) = 82
+
+k = fa	s(p^k) = e7, s(p'^k) = aa, s(p^k)^s(p'^k) = 4d
+
+k = fb	s(p^k) = c8, s(p'^k) = fb, s(p^k)^s(p'^k) = 33
+
+k = fc	s(p^k) = 4e, s(p'^k) = 43, s(p^k)^s(p'^k) = 0d
+
+k = fd	s(p^k) = a9, s(p'^k) = 4d, s(p^k)^s(p'^k) = e4
+
+k = fe	s(p^k) = 8d, s(p'^k) = 33, s(p^k)^s(p'^k) = be
+
+k = ff	s(p^k) = d5, s(p'^k) = 85, s(p^k)^s(p'^k) = 50
+
