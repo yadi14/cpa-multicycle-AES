@@ -1,7 +1,7 @@
 # Exhaustive Search on Plaintext and Key
 ### Find all the m's which satisfies s(p + k) + s(p' + k) = m, for all possible p, p', k, and p != p' under GF(2^8) and AES's S-box. Variables p, p', k, and m are polynomials under GF(2^8).
 
-Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 k's under each possible combinations of p and p', with constraint p!=p'. The total possible {p,p'}'s are are 255+254+...+2+1=32640.
+Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 k's under each possible combinations of p and p', with constraint p != p'. The total possible {p, p'}'s are are 255 + 254 + ... + 2 + 1 = 32640.
 
 # Quick Start
 * Create two new directories
