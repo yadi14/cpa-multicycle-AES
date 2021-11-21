@@ -19,7 +19,7 @@ g++ P1P2K_SIMPLIFY.cpp -o p1p2k_simplify.out
 Since each program output a total of 32640 text files in each folder `p1p2_VERBOSE`, `p1p2_SIMPLIFY`, it may take several minutes to finish execution.
 
 * Verify all text files in `p1p2_SIMPLIFY` with MATLAB
-Directly run `verifyP1P2K.m` in MATLAB.
+Directly run `matlab_verify/verifyP1P2K.m` in MATLAB.
 
 # Output Structure
 Each folder `p1p2_VERBOSE` and `p1p2_SIMPLIFY` have 32640 text files with file name in the format of "\#number"\_"#number".txt. The first number is the decimal value for *p* while the second is for *p'*.
@@ -40,7 +40,7 @@ All numeric inside .txt file are in hexadecimal format.
 
 In folder `p1p2_SIMPLIFY`, each file has 256 lines of hexadecimal value. All the outputs in `p1p2k_simplify.out` are the abbreviated version of the files of the same name in folder `p1p2_VERBOSE`, and it only record the m value for each k.
 
-The output for MATLAB program `verifyP1P2K.m` is counting how many pairs of *{p, p'}* whose number of unique *m*'s is not 128. This value is stored in variable `CNT_discrepency`.
+The output for MATLAB program `matlab_verify/verifyP1P2K.m` is counting how many pairs of *{p, p'}* whose number of unique *m*'s is not 128. This value is stored in variable `CNT_discrepency`.
 
 The Screenshot of MATLAB Workspace:
 
@@ -48,7 +48,7 @@ The Screenshot of MATLAB Workspace:
 
 # Software Tools
 - g++ or MinGW
-- MATLAB in __2020b__ or later version. `verifyP1P2K.m` calls function [readlines](https://www.mathworks.com/help/matlab/ref/readlines.html), which is introduced on __2020b__.
+- MATLAB in __2020b__ or later version. `matlab_verify/verifyP1P2K.m` calls function [readlines](https://www.mathworks.com/help/matlab/ref/readlines.html), which is introduced on __2020b__.
 
 # Software Used
 All C++ programs have tested under g++ 7.5.0. MATLAB program has been tested on both MATLAB __2020b__ and __2021a__.
