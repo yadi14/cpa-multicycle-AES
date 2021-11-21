@@ -36,7 +36,7 @@ For example,
 > k = 00  &emsp; s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
 > k = 01  &emsp; s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f\
 > k = 02  &emsp; s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c\
-> ...\
+> . . .\
 > k = ff  &ensp;&emsp; s(p^k) = 16, s(p'^k) = bb, s(p^k)^s(p'^k) = ad
 
 All numeric inside .txt file are in hexadecimal format.
