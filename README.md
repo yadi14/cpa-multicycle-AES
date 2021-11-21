@@ -34,7 +34,7 @@ The subsequent content in each file record the value for *k*, the S-box output, 
 For example,
 
 > k = 00	 	<p>\&#9</p> s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
-> k = 01	  » s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f\
+> k = 01	  <pre>   </pre> s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f\
 > k = 02	  s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c\
 > ...\
 > k = ff	  s(p^k) = 16, s(p'^k) = bb, s(p^k)^s(p'^k) = ad
