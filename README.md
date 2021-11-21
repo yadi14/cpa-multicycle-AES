@@ -1,5 +1,5 @@
 # Exhaustive Search on Plaintext and Key Bytes
-### Find all the m's which satisfies *s(p + k) + s(p' + k) = m*, for all possible *p*, *p'*, *k*, and *p != p'* under *GF(2^8)* and AES's S-box. Variables *p*, *p'*, *k*, and *m* are polynomials under *GF(2^8)*.
+### Find all the m's which satisfies *s(p + k) + s(p' + k) = m*, for all possible *p*, *p'*, *k*, and *p != p'* under *GF(2^8)* and AES's S-box. Variables *p*, *p'*, *k*, and *m* are polynomials under $*GF(2^8)*$.
 
 Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 *k*'s under each possible combinations of *p* and *p'*, with constraint *p != p'*. The total possible *{p, p'}*'s are are *255 + 254 + ... + 2 + 1 = 32640*.
 
@@ -33,7 +33,7 @@ For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p*
 The subsequent content in each file record the value for *k*, the S-box output, *s(p^k)*, *s(p'^k)*, and result of *m*, *s(p^k)^s(p'^k)=m*.
 For example,
 
-> k = 00	~~~  s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
+> k = 00	  s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
 > k = 01	  s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f\
 > k = 02	  s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c\
 > ...\
