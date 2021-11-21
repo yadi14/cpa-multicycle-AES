@@ -33,7 +33,7 @@ For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p*
 The subsequent content in each file record the value for *k*, the S-box output, *s(p^k)*, *s(p'^k)*, and result of *m*, *s(p^k)^s(p'^k)=m*.
 For example,
 
-> k = 00	 	\&#9 s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
+> k = 00	 	<p>\&#9</p> s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f\
 > k = 01	  s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f\
 > k = 02	  s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c\
 > ...\
