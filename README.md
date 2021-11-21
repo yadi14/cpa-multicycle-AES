@@ -3,7 +3,7 @@
 
 Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 *k*'s under each possible combinations of *p* and *p'*, with constraint *p != p'*. The total possible *{p, p'}*'s are are *255 + 254 + ... + 2 + 1 = 32640*.
 
-Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique vlues for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.
+Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique values for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.
 
 # Quick Start
 * Create two new directories
@@ -30,9 +30,13 @@ For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p*
 The subsequent content in each file record the value for *k*, the S-box output, *s(p^k)*, *s(p'^k)*, and result of *m*, *s(p^k)^s(p'^k)=m*.
 For example,
 > k = 00	s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f
+
 > k = 01	s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f
+
 > k = 02	s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c
+
 > ...
+
 > k = ff	s(p^k) = 16, s(p'^k) = bb, s(p^k)^s(p'^k) = ad
 
 All numeric inside .txt file are in hexadecimal format.
