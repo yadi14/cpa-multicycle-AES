@@ -40,7 +40,7 @@ All numeric inside .txt file are in hexadecimal format.
 
 In folder `p1p2_SIMPLIFY`, each file has 256 lines of hexadecimal value. All the outputs in `p1p2k_simplify.out` are the abbreviated version of the files of the same name in folder `p1p2_VERBOSE`, and it only record the m value for each k.
 
-The output for MATLAB program `verifyP1P2K.m` is counting how many pairs of {p, p'} whose number of unique m's is not 128. This value is stored in variable `CNT_discrepency`.
+The output for MATLAB program `verifyP1P2K.m` is counting how many pairs of *{p, p'}* whose number of unique *m*'s is not 128. This value is stored in variable `CNT_discrepency`.
 
 # Software Tools
 - g++ or MinGW
