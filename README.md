@@ -29,11 +29,11 @@ For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p*
 
 The subsequent content in each file record the value for *k*, the S-box output, *s(p^k)*, *s(p'^k)*, and result of *m*, *s(p^k)^s(p'^k)=m*.
 For example,
-> k = 00	s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f
-> k = 01	s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f
-> k = 02	s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c
+> k = 00	  s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f__
+> k = 01	  s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f__
+> k = 02	  s(p^k) = 77, s(p'^k) = 7b, s(p^k)^s(p'^k) = 0c__
 > ...
-> k = ff	s(p^k) = 16, s(p'^k) = bb, s(p^k)^s(p'^k) = ad
+> k = ff	  s(p^k) = 16, s(p'^k) = bb, s(p^k)^s(p'^k) = ad
 
 All numeric inside .txt file are in hexadecimal format.
 
