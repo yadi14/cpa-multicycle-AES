@@ -3,7 +3,7 @@
 
 Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 *k*'s under each possible combinations of *p* and *p'*, with constraint *p != p'*. The total possible *{p, p'}*'s are are *255 + 254 + ... + 2 + 1 = 32640*.
 
-Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique values for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.)
+Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>.
 
 # Quick Start
 * Create two new directories
