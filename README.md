@@ -1,9 +1,9 @@
-# Exhaustive Search on Plaintext and Key
+# Exhaustive Search on Plaintext and Key Bytes
 ### Find all the m's which satisfies *s(p + k) + s(p' + k) = m*, for all possible *p*, *p'*, *k*, and *p != p'* under *GF(2^8)* and AES's S-box. Variables *p*, *p'*, *k*, and *m* are polynomials under *GF(2^8)*.
 
 Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 *k*'s under each possible combinations of *p* and *p'*, with constraint *p != p'*. The total possible *{p, p'}*'s are are *255 + 254 + ... + 2 + 1 = 32640*.
 
-Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique values for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.
+Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique values for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.)
 
 # Quick Start
 * Create two new directories
@@ -18,7 +18,7 @@ g++ P1P2K_SIMPLIFY.cpp -o p1p2k_simplify.out
 ```
 Since each program output a total of 32640 text files in each folder `p1p2_VERBOSE`, `p1p2_SIMPLIFY`, it may take several minutes to finish execution.
 
-* Verify all text files in `p1p2_SIMPLIFY` with MATLAB
+* Verify all text files in folder `p1p2_SIMPLIFY` with MATLAB
 Directly run `matlab_verify/verifyP1P2K.m` in MATLAB.
 
 # Output Structure
@@ -45,6 +45,9 @@ The output for MATLAB program `matlab_verify/verifyP1P2K.m` is counting how many
 The Screenshot of MATLAB Workspace in `screenshot.png`:
 
 ![](/screenshot.png)
+
+# Observation
+### There are 128 unique values for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.
 
 # Software Tools
 - g++ or MinGW
