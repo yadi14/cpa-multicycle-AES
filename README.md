@@ -42,6 +42,8 @@ In folder `p1p2_SIMPLIFY`, each file has 256 lines of hexadecimal value. All the
 
 The output for MATLAB program `verifyP1P2K.m` is counting how many pairs of *{p, p'}* whose number of unique *m*'s is not 128. This value is stored in variable `CNT_discrepency`.
 
+The Screenshot of MATLAB Workspace:
+
 ![Screenshot of MATLAB Workspace](/screenshot.png)
 
 # Software Tools
