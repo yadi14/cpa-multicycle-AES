@@ -54,7 +54,7 @@ The Screenshot of MATLAB Workspace in `matlab_screenshot.png`.
 
 # Software Tools
 - g++ or MinGW
-- MATLAB in __2020b__ or later version. `verifyP1P2K.m` calls function [readlines](https://www.mathworks.com/help/matlab/ref/readlines.html), which is introduced on __2020b__.
+- MATLAB __R2020b__ or later release. `verifyP1P2K.m` calls function [readlines](https://www.mathworks.com/help/matlab/ref/readlines.html), which is introduced on __R2020b__.
 
 # Software Used
-All C++ programs have tested under g++ 7.5.0. MATLAB program has been tested on both MATLAB __2020b__ and __2021a__.
+All C++ programs have tested under g++ 7.5.0. MATLAB program has been tested on both MATLAB __R2020b__ and __R2021a__.
