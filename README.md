@@ -22,7 +22,7 @@ Since each program output a total of 32640 text files in each folder `p1p2_VERBO
 Directly run `verifyP1P2K.m` in MATLAB.
 
 # Output Structure
-Each folder `p1p2_VERBOSE` and `p1p2_SIMPLIFY` have 32640 text files with file name in the format of \<\#number\>\_\<\#number\>.txt. The first number is the decimal value for *p* while the second is for *p'*.
+Each folder `p1p2_VERBOSE` and `p1p2_SIMPLIFY` have 32640 text files with file name in the format of "\#number"\_"#number".txt. The first number is the decimal value for *p* while the second is for *p'*.
 
 For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p* and *p'*, *i.e.*,
 > p = 00, p' = 01
