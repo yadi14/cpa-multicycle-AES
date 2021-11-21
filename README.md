@@ -7,18 +7,21 @@ Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement mad
 
 # Quick Start
 * Create two new directories
+
 ```
 mkdir p1p2_VERBOSE
 mkdir p1p2_SIMPLIFY
 ```
 * Compile c++ program
+
 ```
 g++ P1P2K_VERBOSE.cpp -o p1p2k_verbose.out
 g++ P1P2K_SIMPLIFY.cpp -o p1p2k_simplify.out
 ```
 Since each program output a total of 32640 text files in each folder `p1p2_VERBOSE`, `p1p2_SIMPLIFY`, it may take several minutes to finish execution.
 
-* Verify all text files in folder `p1p2_SIMPLIFY` with MATLAB
+* Verify all text files in folder `p1p2_SIMPLIFY` have 128 unique *m*'s
+
 Directly run `verifyP1P2K.m` in MATLAB.
 
 # Output Structure
