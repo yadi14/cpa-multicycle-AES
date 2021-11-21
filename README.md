@@ -1,9 +1,9 @@
 # Exhaustive Search on Plaintext and Key
-### Find all the m's which satisfies s(p + k) + s(p' + k) = m, for all possible p, p', k, and p != p' under GF(2^8) and AES's S-box. Variables p, p', k, and m are polynomials under GF(2^8).
+### Find all the m's which satisfies *s(p + k) + s(p' + k) = m*, for all possible *p*, *p'*, *k*, and *p != p'* under *GF(2^8)* and AES's S-box. Variables *p*, *p'*, *k*, and *m* are polynomials under *GF(2^8)*.
 
-Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 k's under each possible combinations of p and p', with constraint p != p'. The total possible {p, p'}'s are are 255 + 254 + ... + 2 + 1 = 32640.
+Both programs, `P1P2K_VERBOSE.cpp` and `P1P2K_SIMPLIFY.cpp`, exhaustively simulate all 256 *k*'s under each possible combinations of *p* and *p'*, with constraint *p != p'*. The total possible *{p, p'}*'s are are *255 + 254 + ... + 2 + 1 = 32640*.
 
-Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique vlues for all 256 combinations of k under any fixed p, p' and p != p'.
+Verification is done in MATLAB with `verifyP1P2K.m` to confirm the statement made in <u>Claim-1</u>'s <u>Observation</u>. (<u>Observation</u>: There are 128 unique vlues for all 256 combinations of *k* under any fixed *p*, *p'* and *p != p'*.
 
 # Quick Start
 * Create two new directories
@@ -22,11 +22,12 @@ Since each program output a total of 32640 text files in each folder `p1p2_VERBO
 Directly run `verifyP1P2K.m` in MATLAB.
 
 # Output Structure
-Each folder `p1p2_VERBOSE` and `p1p2_SIMPLIFY` have 32640 text files with file name in the format of \<\#number\>\_\<\#number\>.txt. The first number is the decimal value for `p` while the second is for `p'`.
+Each folder `p1p2_VERBOSE` and `p1p2_SIMPLIFY` have 32640 text files with file name in the format of \<\#number\>\_\<\#number\>.txt. The first number is the decimal value for *p* while the second is for *p'*.
 
-For each file in folder `p1p2_VERBOSE`, the first line contains the value of `p` and `p'`, i.e.,
+For each file in folder `p1p2_VERBOSE`, the first line contains the value of *p* and *p'*, *i.e.*,
 > p = 00, p' = 01
-The subsequent content in each file record the value for k, the S-box output, `s(p^k)`, `s(p'^k)`, and result of m, `s(p^k)^s(p'^k)=m`.
+
+The subsequent content in each file record the value for *k*, the S-box output, *s(p^k)*, *s(p'^k)*, and result of *m*, *s(p^k)^s(p'^k)=m*.
 For example,
 > k = 00	s(p^k) = 63, s(p'^k) = 7c, s(p^k)^s(p'^k) = 1f
 > k = 01	s(p^k) = 7c, s(p'^k) = 63, s(p^k)^s(p'^k) = 1f
