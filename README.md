@@ -44,7 +44,7 @@ The output for MATLAB program `matlab_verify/verifyP1P2K.m` is counting how many
 
 The Screenshot of MATLAB Workspace:
 
-![Screenshot of MATLAB Workspace](/screenshot.png)
+![](/screenshot.png)
 
 # Software Tools
 - g++ or MinGW
