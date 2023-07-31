@@ -58,3 +58,6 @@ The Screenshot of MATLAB Workspace in `matlab_screenshot.png`.
 
 # Software Used
 All C++ programs have tested under g++ 7.5.0. MATLAB program has been tested on both MATLAB __R2020b__ and __R2021a__.
+
+# Publications
+Y. Zhong, and U. Guin, “Fault-Injection Based Chosen-Plaintext Attacks on Multicycle AES Implementations,”  in Great Lakes Symposium on VLSI (GLSVLSI), pp. 1-6, 2022. 
